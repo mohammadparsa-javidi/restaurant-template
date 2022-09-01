@@ -1,2 +1,2 @@
 # restaurant-template
-This is the template of website
+This is the template of restaurant website
