@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+body{
+    background-color: #1e1c2a;
+    font-family: 'Poppins';
+}
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.header_right ul{
+    list-style-type: none;
+    display: flex;
+}
+.header_right a{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.header_right a:hover{
+    transition: 1s;
+    color: orange;
+}
+.header_left h1{
+    color: orange;
+}
+.about_food{
+    font-size: 20px;  
+    display: flex; 
+    align-items: center;
+}
+
+.left_about_img{
+    padding: 20px;
+    width: 50%;
+}
+.left_about_img .full{
+    color: orange;
+}
+.left_about_img .pericious{
+    color: #fff;
+}
+.right_about_img{
+    width: 50%;   
+    
+}
+.left_about_img a{
+    background-color: orange;
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.left_about_img a:hover{
+    transform: scale(1.3,1.3);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.about_it{
+    display: flex;
+    margin-top: 100px;
+    align-items: flex-start;
+}
+.left_it{
+    padding: 100px;
+    
+}
+.right_it{
+    margin-top: 60px;
+}
+.right_it .about_res{
+    color: orange;
+    font-weight: bold;
+}
+.right_it .learn{
+    background-color: orange;
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+
+}
+.right_it .learn:hover{
+    transform: scale(1.3,1.3);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.right_it h1,.desc{
+    color: #fff;
+}
+.shop{
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 0 8px 0 3px;
+    
+}
+.food_menu .menu_tfood,.fresh{
+    text-align: center;
+}
+.food_menu .menu_tfood{
+    color: orange;
+    font-weight: bold;
+}
+.food_menu .fresh{
+    color: #fff;
+    padding-top: 10px;
+}
+.food_list{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.food_item{
+    position: relative;
+    background-color: #f2cac8;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.food_item p{
+    color: orange;
+}
+.food_item .test{
+    color: gray;
+    padding: 8px;
+}
+.service{
+    margin-top: 100px;
+    text-align: center;
+}
+.service .serve{
+    color: orange;
+    font-weight: bold;
+}
+.service .provide{
+    color: #fff;
+    padding: 10px;
+}
+.list_service{
+    display: flex;
+}
+.item_list{
+    margin:80px 10px;
+    padding: 10px;
+}
+.item_list .introduce{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+}
+.item_list p{
+    text-align: center;
+    padding:5px 15px;
+    color: #fff;
+}
+.q_food{
+    background-color: #feeee7;
+    padding: 70px 0;
+    text-align: center;
+    width: 66%;
+    margin: 100px auto;
+    border-radius: 10px;
+}   
+.q_food h1{
+    color: #000;
+}
+.q_food a{
+    display: block;
+    background-color: orange;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+.q_food a:hover{
+    transform: scale(1.3,1.3);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links{
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-around;
+}
+.links h3{
+    color: orange;
+    padding: 10px 0;
+    border-bottom: 2px solid orange;
+    margin-bottom: 15px;
+}
+
+.links p{
+    padding: 5px; 
+}
+.links a{
+    text-decoration: none;
+    color: #9897a9;
+}
+.links p:hover{
+    transition: 0.5s;
+    transform: translateX(10px);
+}
+.contact i{
+    font-size: 30px;
+    padding: 5px 8px;
+    color: orange;
+}
+.contact i:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
